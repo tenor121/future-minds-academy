@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+body{
+    height: 100vh;
+    margin: 0;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+background-color: bisque;
+}
+
+
+   img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    filter: blur(5px);
+    transition: filter .3s, rotate .6s .3s, scale 1s .2s;
+   }
+   
+   img:hover{ 
+    filter: blur(0);
+    rotate: 720deg;
+    scale: 1.2;
+   }
+   
+
+    </style>
+</head>
+<body>
+    <img src="favicona.png" alt="">
+</body>
+</html>
